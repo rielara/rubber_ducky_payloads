@@ -1,3 +1,6 @@
+// When the ATTiny85 is plugged in, it executes the script below
+// it opens a web page an plays "Never gonna give you up"
+
 
 #include "DigiKeyboard.h"
 
