@@ -19,7 +19,7 @@ void loop ()
   DigiKeyboard.print("$client.DownloadFile('https://images4.alphacoders.com/206/20658.jpg','kitty.jpg')");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(d);
-  DigiKeyboard.print("reg add \"HKCU\\Control Panel\\Desktop\" /v Wallpaper /t REG_SZ /d \"C:\\Users\\44730\\kitty.jpg\" /f");
+  DigiKeyboard.print("reg add \"HKCU\\Control Panel\\Desktop\" /v Wallpaper /t REG_SZ /d \"C:\\Users\\YOURUSERNAMEHERE\\kitty.jpg\" /f");
   DigiKeyboard.delay(100);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(d);
