@@ -17,3 +17,13 @@ You need to install the Arduino IDE first, then set up the right environment for
 When your script is compiling, don't forget to upload your script before plugging in your device, the terminal will inform you that you have 60 seconds to plug in your microcontroller. My scripts are written for UK keyboards. Adapt to suit your own.
 
 I wrote these scripts for the ATTiny85 development boards, but they can easily be reverse engineered to suit your needs.
+
+
+## Reverse Shell
+
+The reverse shell grants access to a remote machine and gives full access to it without the host being aware of it. There are two files, one written in the Arduino IDE, the other in the Rubber Ducky language saved to a text file. Downloading it won't do any harm since it's a text file and not Inject.bin file. It was generated using the [Duck ToolKit](https://ducktoolkit.com/payload/windows#), I then translated it to fit my microcontroller's language.
+
+If you want to play around with it, consider using a VM (virtual machine), so that you do no harm to your own machine by executing someone else's script. There are plenty of free ones online. 
+
+
+Do not use this on anyone without their explicit consent.  
